@@ -1,0 +1,474 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    display: flex ;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color:#fbd85c;
+    gap: 10px;
+}
+
+.left-container,
+.right-container{
+    width: 100%; 
+}
+
+.CV{
+    display: inline-block;
+    display: flex;
+    background-color: white;
+    width: 1400px;
+    height: 80vh;
+    justify-content: space-between;
+}
+
+.LeftSide{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 238, 238);
+    width: 45%;
+    box-sizing: border-box;
+}
+
+.Contact{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: left;
+    width: 100%;
+    clear: both;
+}
+
+.RightSide{
+    background-color: white;
+    width: 50%;
+}
+
+.ProfileBorder{
+    display: flex;
+    background-color: white;
+    height:250px;
+    width: 100%;
+    border-radius: 0px 0px 100px 100px;
+}
+
+.profile{
+    background-color: #ffd63b;
+    height: 90%;
+    border-radius: 0px 0px 80px 80px;
+    width: 80%;
+}
+
+.profile img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 0px 80px 80px;
+}
+
+.BorderSideLeft,
+.BorderSideRight{
+    height: 195px;
+    background-color: white ;
+    width: 15%;
+}
+
+.LeftBorderDetails{
+    /* border: 1px solid black; */
+    width: 25px;
+}
+
+.NameandPosition{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 150px;
+    align-content: flex-start;
+}
+
+.FirstName{
+    margin-top:40px ;
+    font-size: 32px;
+    font-weight:normal;
+}
+
+.LastName{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.Position{
+    margin-top: 4px;
+    font-size: large;
+    color: grey;
+    padding-bottom: 30px;
+}
+
+.border{
+    display: inline-block;
+    display: flexbox;
+    border: 1px solid #ffd63b;
+    width: 180px;
+}
+
+.DownContainer{
+    /* border: 1px solid black; */
+    height: 477px;
+    width: 100%;
+    padding-left: 30px;
+}
+
+
+.AddressDetailsContainer{
+    display: flex;
+    /* border: 1px solid black; */
+    height: 10%;
+    width: 170px;
+    padding: 5px;
+}
+
+.LocationLogo{
+    /* border: 1px solid black; */
+    background-color: #ffd63b;
+    height: 34px;
+    width: 34px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.LocationLogo img {
+    padding: 2px;
+    width: 100%;
+    
+}
+
+.LocationDetails{
+    /* border: 1px solid black; */
+    margin-top: 4px;
+    font-size: x-small;
+    color: grey;
+    padding-left: 5px;
+}
+
+.ContactContainer{
+    display: flex;
+    padding: 5px;
+    height: 17%;
+    width: 170px;
+    /* border: 1px solid black; */
+}
+
+.ContactLogoContainer{
+    background-color: #ffd63b;
+    height: 70px;
+    width: 24px;
+    border-radius: 0px 0px 15px 15px; 
+    /* border: 1px solid black; */
+}
+
+.ContactLogoContainer img{
+    padding: 2px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.ContactDetailContainer{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    height: 70px;
+    width: 170px;
+    gap: 10px;
+}
+
+.PhoneDetail,
+.MailDetail,
+.WebsiteDetail{
+    /* border: 1px solid black; */
+    margin-top: 1px;
+    font-size: x-small;
+    color: grey;
+    padding-left: 5px;
+}
+
+.EducationMainContainer{
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+    width: 100%;
+    clear: both;
+    margin-left: 4px;
+}
+
+.FirstEducationHeading,
+.SecondEducationHeading{
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: normal;
+    margin-left: 4px;
+}
+
+.FirstEducationDetail,
+.SecondEducationDetail{
+    /* border: 1px solid black; */
+    margin-top: 1px;
+    font-size: x-small;
+    color: grey;
+    margin-left: 4px;
+}
+
+.ReferenceMainContainer{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+    width: 100%;
+    clear: both;
+    margin-left: 4px; 
+}
+
+.ReferenceName{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: normal;
+    margin-left: 4px;  
+}
+
+.RefrenceRole{
+    margin-top: 1px;
+    font-size: x-small;
+    color: grey;
+    margin-left: 4px;
+}
+
+.ReferenceContainer{
+    border: 1px solid #ffd63b;
+    width: 3px;
+    background-color:#ffd63b ;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.ReferenceDetails{
+    /* border: 1px solid #ffd63b; */
+    width: 150px;
+    margin-left: 5px;
+}
+
+.JobExperianceMainHeading{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+    width: 100%;
+    clear: both;
+    margin-left: 4px; 
+}
+
+.firstJobExperianceMainContainer{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    height: 15%;
+    width: 95%;
+}
+
+.FirstJobTitleContainer{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    height: 40%;
+    width: 55%;
+}
+
+.FirstJobYear,
+.FirstJobPosition,
+.FirstCompanyName,
+.FirstJobExperianceDetails{
+    margin-top: 1px;
+    font-size: x-small;
+    color: grey;
+    margin-left: 4px;
+}
+
+.FirstJobExperianceDetailContainer{
+    /* border: 1px solid black; */
+    height: 100%;
+    display: flex;
+}
+
+
+.FirstJobExperianceDetails > p{
+margin-top: 10px;
+justify-content: center;
+align-items: center;
+}
+
+.FirstVerticalBorderLine{
+    border: 1px solid #ffd63b;
+    display: flex;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: start;
+}
+
+.SecondJobExperianceMainContainer{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    height: 15%;
+    width: 95%;
+}
+
+.SecondJobTitleContainer{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    height: 40%;
+    width: 55%;
+}
+
+.SecondJobYear,
+.SecondJobPosition,
+.SecondCompanyName,
+.SecondJobExperianceDetails{
+    margin-top: 1px;
+    font-size: x-small;
+    color: grey;
+    margin-left: 4px;
+}
+
+.SecondJobExperianceDetailContainer {
+    display: flex;
+    /* border: 1px solid black; */
+    height: 100%;
+}
+
+.SecondJobExperianceDetails > p{
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    }
+
+.SecondVerticalBorderLine{
+    border: 1px solid #ffd63b;
+    display: flex;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.SkillsHeading{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+    width: 100%;
+    clear: both;
+    margin-left: 4px;
+}
+
+.SkillsContainer{
+    /* border: 1px solid black; */
+    display: flex;
+    height: 15%;
+    width: 95%;
+}
+
+.SkillsLeftSideContainer,
+.SkillsRightSideContainer{
+    /* border: 1px solid black; */
+    width: 50%;
+}
+
+.SkillsLeftSideContainer{
+display: flex;
+margin-top: 1px;
+font-size: 8px;
+color: grey;
+margin-left: 4px;
+}
+
+.QualificationName1 > p{
+display: flex;
+flex-direction: column;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-right: 3px;
+}
+
+.star-rating1 {
+    font-size: 8px;
+  }
+  
+  .star-rating1 i {
+    color: #ffd63b;
+  }
+  
+  .star-rating1 .far {
+    color: #d3d3d3;
+  }
+
+.QualificationStar {
+    display: flex;
+    flex-direction: column;
+}
+
+.star-rating1{
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+.SkillsRightSideContainer{
+    display: flex;
+    margin-top: 1px;
+    font-size: 8px;
+    color: grey;
+    margin-left: 4px;  
+}
+
+.InterestHeading{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+    width: 100%;
+    clear: both;
+    margin-left: 4px; 
+}
+
+.Interestcontainer{
+    display: flex;
+    margin-top: 1px;
+    font-size: 8px;
+    color: grey;
+    margin-left: 4px; 
+    justify-content: space-around;
+}
+
+.Dot1,
+.Dot2,
+.Dot3,
+.Dot4{
+    border: solid #ffd63b;
+    border-radius: 100%;
+    height: 1px;
+    width: 1px;
+}
